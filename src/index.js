@@ -1,4 +1,4 @@
-import NFTMakerButton from './NFTMakerButton.js'
+import NFTMakerButton from './NFTMakerButton.vue'
 
 const nftmaker = {
   install: (app, options) => {
