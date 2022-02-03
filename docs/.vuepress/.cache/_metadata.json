@@ -1,0 +1,36 @@
+{
+  "hash": "a4186c86",
+  "browserHash": "7b008974",
+  "optimized": {
+    "vue": {
+      "file": "/home/radflipper721/cardano-cardz-dir/vue-cardano/docs/.vuepress/.cache/vue.js",
+      "src": "/home/radflipper721/cardano-cardz-dir/vue-cardano/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "file": "/home/radflipper721/cardano-cardz-dir/vue-cardano/docs/.vuepress/.cache/vue-router.js",
+      "src": "/home/radflipper721/cardano-cardz-dir/vue-cardano/node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "needsInterop": false
+    },
+    "@vue/devtools-api": {
+      "file": "/home/radflipper721/cardano-cardz-dir/vue-cardano/docs/.vuepress/.cache/@vue_devtools-api.js",
+      "src": "/home/radflipper721/cardano-cardz-dir/vue-cardano/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "needsInterop": false
+    },
+    "@vueuse/core": {
+      "file": "/home/radflipper721/cardano-cardz-dir/vue-cardano/docs/.vuepress/.cache/@vueuse_core.js",
+      "src": "/home/radflipper721/cardano-cardz-dir/vue-cardano/node_modules/@vueuse/core/index.mjs",
+      "needsInterop": false
+    },
+    "nprogress": {
+      "file": "/home/radflipper721/cardano-cardz-dir/vue-cardano/docs/.vuepress/.cache/nprogress.js",
+      "src": "/home/radflipper721/cardano-cardz-dir/vue-cardano/node_modules/nprogress/nprogress.js",
+      "needsInterop": true
+    },
+    "@vuepress/shared": {
+      "file": "/home/radflipper721/cardano-cardz-dir/vue-cardano/docs/.vuepress/.cache/@vuepress_shared.js",
+      "src": "/home/radflipper721/cardano-cardz-dir/vue-cardano/node_modules/@vuepress/shared/lib/esm/index.js",
+      "needsInterop": false
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
-  "name": "@radflipper/vue-nft-maker-gateway",
-  "version": "0.0.4",
-  "description": "Vue3 warpper for the NFT-MAKER.IO payment gateway button",
+  "name": "@radflipper/vue-cardano",
+  "version": "0.0.1",
+  "description": "Vue3 wrapper for the NFT-MAKER.IO payment gateway button",
   "main": "dist/library.js",
   "module": "dist/library.mjs",
   "files": [
@@ -12,14 +12,17 @@
   },
   "scripts": {
     "build": "rollup -c",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "rollup": "^2.67.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-vue": "^6.0.0"
+    "rollup-plugin-vue": "^6.0.0",
+    "vuepress": "^2.0.0-beta.35"
   }
 }
