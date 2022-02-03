@@ -1,6 +1,6 @@
 {
   "name": "@radflipper/vue-nft-maker-gateway",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Vue3 warpper for the NFT-MAKER.IO payment gateway button",
   "main": "dist/library.js",
   "module": "dist/library.mjs",

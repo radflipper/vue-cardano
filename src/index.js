@@ -1,11 +1,11 @@
 import NFTMakerButton from './NFTMakerButton.vue'
 
 const nftmaker = {
-  install: (app, options) => {
+  install: (Vue, options) => {
     /* declare global component */
     const projectID = options.projectID
-    app.provide("projectID", projectID)
-    app.component("NFTMakerButton", NFTMakerButton );
+    Vue.provide("projectID", projectID)
+    Vue.component("NFTMakerButton", NFTMakerButton );
   },
 };
 
