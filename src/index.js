@@ -1,6 +1,6 @@
 import NFTMakerButton from './NFTMakerButton.vue'
 
-const nftmaker = {
+const vueCardano = {
   install: (Vue, options) => {
     /* declare global component */
     const projectID = options.projectID
@@ -9,4 +9,4 @@ const nftmaker = {
   },
 };
 
-export default nftmaker
+export default vueCardano

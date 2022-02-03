@@ -11,11 +11,23 @@ export const data = {
       "title": "Installation",
       "slug": "installation",
       "children": []
+    },
+    {
+      "level": 3,
+      "title": "Component Registration",
+      "slug": "component-registration",
+      "children": []
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1643855958000,
+    "contributors": [
+      {
+        "name": "RadFlipper",
+        "email": "radflipper721@gmail.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "README.md"
 }

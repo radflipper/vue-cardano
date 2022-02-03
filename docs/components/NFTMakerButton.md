@@ -1,6 +1,6 @@
 # NFTMakerButton
 
-NFTMakerButton is a component that adds a link image to the NFT-MAKER.io payment gateway.
+NFTMakerButton is a component that adds the link image to the NFT-MAKER.io payment gateway.
 
 ```vue
 <template>

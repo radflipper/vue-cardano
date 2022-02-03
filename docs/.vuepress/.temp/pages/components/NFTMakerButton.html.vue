@@ -1,5 +1,5 @@
 <template><h1 id="nftmakerbutton" tabindex="-1"><a class="header-anchor" href="#nftmakerbutton" aria-hidden="true">#</a> NFTMakerButton</h1>
-<p>NFTMakerButton is a component that adds a link image to the NFT-MAKER.io payment gateway.</p>
+<p>NFTMakerButton is a component that adds the link image to the NFT-MAKER.io payment gateway.</p>
 <div class="language-vue ext-vue line-numbers-mode"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NFTMakerButton</span> <span class="token punctuation">/></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>

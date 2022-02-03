@@ -1,7 +1,7 @@
 {
   "name": "@radflipper/vue-cardano",
   "version": "0.0.1",
-  "description": "Vue3 wrapper for the NFT-MAKER.IO payment gateway button",
+  "description": "Vue3 wrapper components for Cardano",
   "main": "dist/library.js",
   "module": "dist/library.mjs",
   "files": [

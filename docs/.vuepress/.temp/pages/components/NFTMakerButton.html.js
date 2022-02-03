@@ -20,8 +20,14 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1643855958000,
+    "contributors": [
+      {
+        "name": "RadFlipper",
+        "email": "radflipper721@gmail.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "components/NFTMakerButton.md"
 }
