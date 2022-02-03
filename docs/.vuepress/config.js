@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/vue-cardano/',
   locales: {
     '/': {
       lang: 'en-US',
