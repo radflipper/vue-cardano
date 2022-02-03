@@ -1,5 +1,5 @@
 export const siteData = {
-  "base": "/vue-cardano/",
+  "base": "/vue-carda/",
   "lang": "en-US",
   "title": "",
   "description": "",

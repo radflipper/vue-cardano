@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/vue-cardano/',
+  base: '/vue-carda/',
   locales: {
     '/': {
       lang: 'en-US',
@@ -9,9 +9,9 @@ module.exports = {
   },
 
   themeConfig: {
-    repoLabel: 'Contribute!',
+    repoLabel: 'Vue-Cardano',
     // git repo here... gitlab, github
-    repo: '',
+    repo: 'https://github.com/radflipper/vue-cardano',
     docsDir: 'docs',
     editLinks: true,
     docsBranch: 'dev',

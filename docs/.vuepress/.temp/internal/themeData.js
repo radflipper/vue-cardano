@@ -1,6 +1,6 @@
 export const themeData = {
-  "repoLabel": "Contribute!",
-  "repo": "",
+  "repoLabel": "Vue-Cardano",
+  "repo": "https://github.com/radflipper/vue-cardano",
   "docsDir": "docs",
   "editLinks": true,
   "docsBranch": "dev",
