@@ -15,9 +15,8 @@ export default {
     btnStyle: { default: "round", type: String },
   },
   setup(props) {
-    const projectID = inject("projectID");
-    const network = inject("network");
-
+    const paymentUrl = inject("paymentUrl");
+    
     const btnColor =
       props.btnColor == "black" 
         ? "3" 
@@ -37,10 +36,9 @@ export default {
       btnColor +
       ".svg";
 
-    console.log(projectID);
     function openPaymentWindow() {
-      const paymentUrl =
-        "https://payment-testnet.nft-maker.io/?p=" + projectID + "&c=1";
+      // const paymentUrl =
+        // "https://payment-testnet.nft-maker.io/?p=" + projectID + "&c=1";
       // Specify the popup width and height
       const popupWidth = 500;
       const popupHeight = 700;
