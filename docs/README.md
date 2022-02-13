@@ -15,6 +15,6 @@ import App from './App.vue'
 import vueCardano from '@radflipper/vue-cardano'
 
 createApp(App)
-  .use(vueCardano, { projectID: "<your-project-id>"})
+  .use(vueCardano, { projectID: "<your-project-id>", network: "testnet"})
   .mount('#app')
 ```

@@ -16,6 +16,7 @@ export default {
   },
   setup(props) {
     const projectID = inject("projectID");
+    const network = inject("network");
 
     const btnColor =
       props.btnColor == "black" 
