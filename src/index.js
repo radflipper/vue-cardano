@@ -7,14 +7,19 @@ const vueCardano = {
     const network = options.network
     const paymentUrl
     try {
-      paymentUrl = network == "testnet" ? "https://payment-testnet.nft-maker.io/?p=" + projectID + "&c=1" 
-        : network == "mainnet" ? "https://payment.nft-maker.io/?p=" + projectID + "&c=1";
-    } catch (error) {
-      return "No network provided"  
+      if(network == "testnet") {
+        paymentUrl = "https://payment-testnet.nft-maker.io/?p=" + projectID + "&c=1" 
+      } else if (network == "mainnet") {
+        "https://payment.nft-maker.io/?p=" + projectID + "&c=1"
+
+      } else {
+        throw new Exception('invalidOptionsException');
+      }
+    } catch (e) {
+      return console.log(e + ": No network or incorrect netowork provided")
     }
 
-    Vue.provide("network", network)
-    Vue.provide("projectID", projectID)
+    Vue.provide("paymentUrl", paymentUrl)
     Vue.component("NFTMakerButton", NFTMakerButton );
   },
 };
